@@ -1,7 +1,7 @@
-package FactoryDesignpattern;
+package FactoryDesignpattern.Calculator;
 
 public class Factory {
-    fun getInstance(type:String):AuthOperation{
+    fun getInstance(type:String): AuthOperation {
         return when(type){
             "+" -> {
                 Addition()
