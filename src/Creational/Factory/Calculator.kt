@@ -1,4 +1,4 @@
-package FactoryDesignpattern.Calculator
+package Creational.Factory
 
 class Calculator {
     val factory = Factory()

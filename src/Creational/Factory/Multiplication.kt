@@ -1,4 +1,4 @@
-package FactoryDesignpattern.Calculator
+package Creational.Factory
 
 class Multiplication: AuthOperation {
     override fun calculate(a: Int, b: Int): Int {

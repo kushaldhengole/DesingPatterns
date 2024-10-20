@@ -1,4 +1,4 @@
-package FactoryDesignpattern.Calculator;
+package Creational.Factory;
 
 public class Factory {
     fun getInstance(type:String): AuthOperation {
