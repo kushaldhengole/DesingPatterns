@@ -1,6 +1,7 @@
 package Creational.Factory
 
 import java.util.Scanner
+import kotlin.system.exitProcess
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -14,4 +15,9 @@ fun main() {
     val op = readln()
     val calculator = Calculator()
     println("Sum is ${calculator.calculate(n1,n2,op)}")
+    println("press to y continue ")
+    val isContinue = readln()
+    if (isContinue=="y"){
+        main()
+    }
 }
