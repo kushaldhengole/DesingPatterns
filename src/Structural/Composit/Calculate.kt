@@ -1,6 +1,7 @@
 package Structural.Composit
 
 fun main (){
+
     val two = Number(2)
     val four = Number(4)
     val three = Number(3)
